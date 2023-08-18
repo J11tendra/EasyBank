@@ -1140,4 +1140,181 @@ button:hover::before,
     max-width: 36.75rem;
     height: 26.75rem;
   }
+}
+
+.career-2 {
+  background-color: hsl(0, 0%, 98%);
+}
+.career-2 .container-career-2 {
+  padding: 3.75rem 1.5rem;
+}
+@media (min-width: 40em) {
+  .career-2 .container-career-2 {
+    padding: 3.75rem 2.5rem;
+  }
+}
+.career-2__img {
+  text-align: center;
+}
+.career-2__img img {
+  max-width: 20.3125rem;
+  width: 100%;
+  height: 13.875rem;
+  margin-bottom: 3.75rem;
+}
+@media (min-width: 40em) {
+  .career-2__img img {
+    max-width: 33.375rem;
+    height: 23.125rem;
+  }
+}
+@media (min-width: 64em) {
+  .career-2__img img {
+    max-width: 52.3125rem;
+    height: 33.375rem;
+    margin-bottom: 5.25rem;
+  }
+}
+.career-2__text {
+  text-align: center;
+}
+.career-2__text h2 {
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+}
+@media (min-width: 40em) {
+  .career-2__text h2 {
+    font-size: 2.125rem;
+  }
+}
+@media (min-width: 64em) {
+  .career-2__text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.1875rem;
+  }
+}
+.career-2__text p {
+  font-size: 1rem;
+  max-width: 20rem;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 40em) {
+  .career-2__text p {
+    font-size: 1.25rem;
+    max-width: 40.375rem;
+  }
+}
+@media (min-width: 64em) {
+  .career-2__text p {
+    max-width: 45.375rem;
+  }
+}
+
+.career-3 .container-career-3 {
+  padding: 3.75rem 1.5rem;
+}
+@media (min-width: 64em) {
+  .career-3 .container-career-3 {
+    display: grid;
+    grid-template-areas: "col1 col2";
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 5rem;
+    padding: 5rem 3rem;
+  }
+}
+@media (min-width: 87.5em) {
+  .career-3 .container-career-3 {
+    grid-column-gap: 8rem;
+  }
+}
+.career-3__img {
+  text-align: center;
+}
+@media (min-width: 64em) {
+  .career-3__img {
+    grid-area: col1;
+  }
+}
+.career-3__img img {
+  max-width: 19.9375rem;
+  width: 100%;
+  height: 19.75rem;
+  margin-bottom: 4.375rem;
+}
+@media (min-width: 40em) {
+  .career-3__img img {
+    max-width: 25rem;
+    height: 23.75rem;
+  }
+}
+@media (min-width: 64em) {
+  .career-3__img img {
+    max-width: 29.625rem;
+    height: 29.375rem;
+  }
+}
+.career-3__text {
+  text-align: center;
+}
+@media (min-width: 64em) {
+  .career-3__text {
+    grid-area: col2;
+    text-align: left;
+  }
+}
+.career-3__text h2 {
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+@media (min-width: 40em) {
+  .career-3__text h2 {
+    font-size: 2.125rem;
+  }
+}
+@media (min-width: 64em) {
+  .career-3__text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+.career-3__text p {
+  font-size: 1rem;
+  max-width: 20rem;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 40em) {
+  .career-3__text p {
+    max-width: 35rem;
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 64em) {
+  .career-3__text p {
+    max-width: 31.25rem;
+  }
+}
+.career-3__text a {
+  max-width: 10rem;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 40em) {
+  .career-3__text a {
+    max-width: 11rem;
+  }
+}
+@media (min-width: 64em) {
+  .career-3__text a {
+    font-size: 1.125rem;
+    max-width: 13rem;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
