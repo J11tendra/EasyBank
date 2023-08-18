@@ -1,0 +1,256 @@
+// 1'st Section:
+.about-1 {
+    padding: 3.375rem 1.5rem;
+    
+
+    // Tablet:-
+    @include breakpoint-up(medium) {
+        padding: 4.375rem 1.5rem;
+    }
+
+    // Desktop:-
+    @include breakpoint-up(large) {
+        display: flex;
+        align-items: center;
+        padding: 4.375rem 0;
+        max-width: 69rem;
+        margin: 0 auto;
+    }
+
+    // About Image:-
+    &__img {
+        margin-bottom: 3.75rem;
+
+        // Desktop:-
+        @include breakpoint-up(large) {
+            order: 2;
+        }
+
+        img {
+            height: 19.25rem;
+            width: 21rem;
+            display: block;
+            margin: 0 auto;
+
+            // Tablet:-
+            @include breakpoint-up(medium) {
+                height: 21.25rem;
+                width: 25rem;
+            }
+
+            // Desktop:-
+            @include breakpoint-up(large) {
+                width: 35.625rem;
+                height: 30.8125rem;
+            }
+        }
+    }
+
+    // About Text:-
+    &__text {
+        margin-top: 3.375rem;
+        text-align: center;
+
+        // Desktop:-
+        @include breakpoint-up(large) {
+            order: 1;
+            text-align: left;
+            margin: 0;
+        }
+
+        // Heading;-
+        &__title {
+            font-size: $font-med-lg;
+            font-weight: 500;
+            margin-bottom: 0.625rem;
+
+            // Tablet:-
+            @include breakpoint-up(medium) {
+                font-size: 2.31rem;
+            }
+
+            // Desktop:-
+            @include breakpoint-up(large) {
+                font-size: 2.5rem;
+            }
+        }
+
+        // Logo:-
+        img {
+            width: 11.25rem;
+            height: 1.875rem;
+
+            // Desktop:-
+            @include breakpoint-up(large) {
+                width: 15.5rem;
+                height: 2.875rem;
+            }
+        }
+
+        // Description:-
+        &__para {
+            margin: 2rem 0 2.5rem 0;
+            font-size: 1rem;
+
+            // Tablet:-
+            @include breakpoint-up(medium) {
+                margin: 2rem 3rem 2.5rem 3rem;
+            }
+
+            // Desktop:-
+            @include breakpoint-up(large) {
+                font-size: 1.25rem;
+                margin: 2rem 3rem 2.5rem 0;
+            }
+
+            // Desktop-large:-
+            @include breakpoint-up(xlarge) {
+                margin: 2.5rem 7rem 2.5rem 0;
+                width: 32.375rem;
+            }
+        }
+
+        // Button:-
+        a {
+            padding-left: 3.625rem;
+            padding-right: 3.625rem;
+        }
+    }
+}
+
+.container-about {
+    background-color: $veryLightGray;
+}
+
+// 2'nd Section:-
+.about-2 {
+    padding: 3.375rem 1.5rem;
+
+
+    // Tablet:-
+    @include breakpoint-up(medium) {
+        padding: 4.375rem 1.5rem;
+    }
+
+    // Desktop:-
+    @include breakpoint-up(large) {
+        display: flex;
+        align-items: center;
+        padding: 5.325rem 0 4rem 0;
+        width: 70rem;
+        margin: 0 auto;
+    }
+
+    // Section-Image:-
+    &__img {
+
+        // Desktop:-
+        @include breakpoint-up(large) {
+            flex: 1;
+        }
+
+        img {
+            height: 19.25rem;
+            width: 21rem;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 3.375rem;
+
+            // Tablet:-
+            @include breakpoint-up(medium) {
+                height: 21.25rem;
+                width: 25rem;
+            }
+
+            // Desktop:-
+            @include breakpoint-up(large) {
+                width: 34.875rem;
+                height: 29.0625rem;
+            }
+        }
+    }
+
+    // Section-Text:-
+    &__text {
+        text-align: center;
+
+        // Desktop:-
+        @include breakpoint-up(large) {
+            flex: 1;
+            text-align: left;
+            padding: 0 0 0 5rem;
+        }
+
+        // Desktop-large:-
+        @include breakpoint-up(xlarge) {
+            padding-left: 12rem;
+        }
+
+        // Heading-2:-
+        h2 {
+            font-size: $font-lg;
+            font-weight: 400;
+            color: $limeGreen;
+            margin-bottom: 0.5rem;
+
+            // Tablet:-
+            @include breakpoint-up(medium) {
+                margin-bottom: 0.875rem;
+            }
+
+            // Desktop:-
+            @include breakpoint-up(large) {
+                font-size: 1.5rem;
+            }
+        }
+
+        // Heading-1:-
+        h1 {
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom: 1.875rem;
+
+            // Green-Heading:-
+            span {
+                color: $limeGreen;
+                display: block;
+            }
+
+             // Tablet:-
+             @include breakpoint-up(medium) {
+                font-size: 2.31rem;
+            }
+
+            // Desktop:-
+            @include breakpoint-up(large) {
+                font-size: 2.5rem;
+                font-weight: 400;
+                margin-bottom: 2.5rem;
+            }
+        }
+
+        // Description:-
+        p {
+            font-size: 1rem;
+            margin-bottom: 1.875rem;
+
+            // Tablet:-
+            @include breakpoint-up(medium) {
+                margin: 2rem 3rem 2.5rem 3rem;
+            }
+
+            // Desktop:-
+            @include breakpoint-up(large) {
+                font-size: 1.25rem;
+                margin: 0 0 2.8125rem 0;
+                width: 26.375rem;
+            }
+        }
+
+        // Connect Button:-
+        a {
+            padding-left: 3.625rem;
+            padding-right: 3.625rem;
+        }
+    }
+}

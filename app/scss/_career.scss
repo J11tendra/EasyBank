@@ -1,0 +1,115 @@
+.career-1 {
+
+    .container-career {
+        padding: 2.625rem 1.5rem;
+
+        @include breakpoint-up(large) {
+            display: grid;
+            grid-template-areas: 
+            "col1 col2"
+            ;
+            grid-column-gap: 4rem;
+            align-items: center;
+            justify-content: center;
+            padding: 5rem 3rem;
+        }
+
+        @include breakpoint-up(xlarge) {
+            grid-column-gap: 8rem;
+        }
+    }
+
+
+    &__text {
+        text-align: center;
+
+        @include breakpoint-up(large) {
+            grid-area: col1;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+
+
+            @include breakpoint-up(medium) {
+                font-size: 2.5rem;
+            }
+            span {
+                color: $limeGreen;
+                font-weight: 700;
+            }
+        }
+
+        h3 {
+            font-size: 1.375rem;
+            font-weight: 400;
+            margin-bottom: 0.875rem;
+
+            @include breakpoint-up(medium) {
+                font-size: 1.5rem;
+            }
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0 auto;
+            margin-bottom: 2.5rem;
+            max-width: 20rem;
+            width: 100%;
+
+            @include breakpoint-up(medium) {
+                font-size: 1.25rem;
+                max-width: 25.375rem;
+            }
+
+            @include breakpoint-up(large) {
+                margin: 1.375rem 0 2.5rem 0;
+            }
+        }
+
+        a {
+            max-width: 10rem;
+            width: 100%;
+            font-size: 1rem;
+
+            @include breakpoint-up(medium) {
+                max-width: 11rem;
+            }
+
+            @include breakpoint-up(large) {
+                text-align: center;
+                font-size: 1.225rem;
+                max-width: 13rem;
+            }
+        }
+    }
+
+    &__img {
+        text-align: center;
+
+        @include breakpoint-up(large) {
+            grid-area: col2;
+        }
+
+        img {
+            height: 15.1875rem;
+            max-width: 20.9375rem;
+            width: 100%;
+            margin: 3.75rem 0 1.125rem 0;
+
+            @include breakpoint-up(medium) {
+                max-width: 33.75rem;
+                height: 23.75rem;
+                margin-top: 4rem;
+            }
+
+            @include breakpoint-up(large) {
+                max-width: 36.75rem;
+                height: 26.75rem;
+            }
+        }
+    }
+}
